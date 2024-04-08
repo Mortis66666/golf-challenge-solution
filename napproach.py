@@ -1,0 +1,2 @@
+b=[0]*9;x=2;r=range;P=print
+while((w:=max([b[c//5-9]&b[c//5+c%5-9]&b[c//5-c%5-9]for c in map(ord,"DICE?3BQ")]))<1or P(".XO"[w]+" win"))and(b.count(0)or P("Tie")):x=b[int(input())]=3-x;P(*["-XO"[n]for n in b])

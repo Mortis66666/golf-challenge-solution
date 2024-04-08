@@ -1,0 +1,2 @@
+*p,x=0,0,1;P=print
+while(all(y!=y&p[x]for y in[448,56,7,292,146,73,84,273])or P("XO"[x]+" win"))and(sum(p)-511or P("Tie")):p[x:=x^1]|=1<<int(input());P(*["XO"[p[1]>>i&1]if 2**i&sum(p)else"-"for i in range(9)])
